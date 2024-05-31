@@ -15,7 +15,7 @@ const AdminPanel = () => {
     return (
         <div>
             <button onClick={handleClick}>
-                This is a button
+                Click Me
             </button>
             <h1>Counter : {count}</h1>
         </div>
