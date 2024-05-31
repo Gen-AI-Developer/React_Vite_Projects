@@ -9,9 +9,11 @@ const AdminPanel = () => {
     return (
         <div>
             <h1>Products</h1>
-            {products.map((products) => {
-                return <div>
-                    {products.id} - {products.title}
+            {products.map((product) => {
+                return <div key={product.id}>
+                    <li>
+                        {product.title}
+                    </li>
                 </div>
             })}
         </div>
